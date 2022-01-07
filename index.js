@@ -23,8 +23,8 @@ var httpServer = http.createServer(function (req, res) {
 });
 
 // Start the HTTP server
-httpServer.listen(PORT, function () {
-  console.log("The HTTP server is running on port " + PORT);
+httpServer.listen(8080, function () {
+  console.log("The HTTP server is running on port" + PORT);
 });
 
 // Instantiate the HTTPS server
